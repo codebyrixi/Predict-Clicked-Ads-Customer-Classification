@@ -59,7 +59,7 @@ Hasilnya tertera pada tabel dibawah.<br>
 | Tahapan            | Penyelesaian                                                                                      |
 |--------------------|---------------------------------------------------------------------------------------------------|
 | Data Cleaning      | Melakukan handling pada missing value                                                             |
-| Adding New Feature | 1. Melakukan ekstraksi feature `datetime`<br> 2. Penambahan feature `pulau`                       |
-| Feature Encoding   | 1. Label encoding pada feature `male`<br> 2. One hot encoding pada feature `pulau` dan `category` |
+| Adding New Feature | Melakukan ekstraksi feature `datetime`<br> serta penambahan feature `pulau`                       |
+| Feature Encoding   | Label encoding pada feature `male`<br> dan One hot encoding pada feature `pulau` dan `category`   |
 | Feature Selection  | Melakukan drop pada feature yang tidak dibutuhkan                                                 |
 | Split Data         | Membagi data dengan perbandingan train:test = 70:30                                               |
