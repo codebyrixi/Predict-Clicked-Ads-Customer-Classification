@@ -56,10 +56,10 @@ Pada proses ini dilakukan pemrosesan data, yang terdiri dari:
 4. Feature selection
 5. Melakukan split pada data training dan data testing
 Hasilnya tertera pada tabel dibawah.<br>
-| Tahapan | Penyelesaian |
-|---|---|
-| Data Cleaning | Melakukan handling pada missing value |
-| Adding New Feature | 1. Melakukan ekstraksi feature `datetime`<br> 2. Penambahan feature `pulau` |
-| Feature Encoding | 1. Label encoding pada feature `male`<br> 2. One hot encoding pada feature `pulau` dan `category` |
-| Feature Selection | Melakukan drop pada feature yang tidak dibutuhkan |
-| Split Data | Membagi data dengan perbandingan train:test = 70:30 |
+| Tahapan            | Penyelesaian                                                                                      |
+|--------------------|---------------------------------------------------------------------------------------------------|
+| Data Cleaning      | Melakukan handling pada missing value                                                             |
+| Adding New Feature | 1. Melakukan ekstraksi feature `datetime`<br> 2. Penambahan feature `pulau`                       |
+| Feature Encoding   | 1. Label encoding pada feature `male`<br> 2. One hot encoding pada feature `pulau` dan `category` |
+| Feature Selection  | Melakukan drop pada feature yang tidak dibutuhkan                                                 |
+| Split Data         | Membagi data dengan perbandingan train:test = 70:30                                               |
