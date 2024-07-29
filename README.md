@@ -63,3 +63,5 @@ Hasilnya tertera pada tabel dibawah.<br>
 | Feature Encoding   | Label encoding pada feature `male`<br> dan One hot encoding pada feature `pulau` dan `category`   |
 | Feature Selection  | Melakukan drop pada feature yang tidak dibutuhkan                                                 |
 | Split Data         | Membagi data dengan perbandingan train:test = 70:30                                               |
+
+## Bagian 3: 
