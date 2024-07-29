@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4a74a318-b571-4a81-87fc-9a094cf9d122)# Predict Customer Clicked Ads Classification by Using Machine Learning
+# Predict Customer Clicked Ads Classification by Using Machine Learning
 Project ini merupakan project yang bertujuan untuk memprediksi jumlah klik suatu ads/iklan berdsasarkan klasifikasi pelanggannya. Project ini dibuat menggunakan bahasa pemrograman Python 
 
 ## Daftar Isi
