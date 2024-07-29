@@ -115,10 +115,10 @@ Korelasi negatif antara Daily Internet Usage, Daily Time Spent on Site, dan Area
 Beberapa hal yang dapat dilakukan yaitu sebagai berikut.
 
 1. Perusahaan dapat mentargetkan iklan pada pengguna internet yang tidak aktif, yaitu mereka yang jarang menghabiskan waktu di situs web (kurang dari 1 jam) dan yang jarang menggunakan internet (kurang dari 2,5 jam setiap hari). Di antaranya yang dapat digunakan yaitu sebagai berikut.
- - Iklan harus singkat dan menarik karena pengguna non-aktif memiliki keterbatasan waktu.Pesan yang padat dan jelas dengan kata yang dipilih dengan benar dapat menarik perhatian mereka dalam waktu singkat.
- - Gunakan teknik retargeting untuk tetap berhubungan dengan pengguna non-aktif. Tampilkan iklan yang relevan secara berulang kali di berbagai platform yang mereka kunjungi, seperti situs web, aplikasi, atau media sosial, setelah mereka mengklik iklan pertama. Ini dapat meningkatkan kesadaran pengguna.
+  - Iklan harus singkat dan menarik karena pengguna non-aktif memiliki keterbatasan waktu.Pesan yang padat dan jelas dengan kata yang dipilih dengan benar dapat menarik perhatian mereka dalam waktu singkat.
+  - Gunakan teknik retargeting untuk tetap berhubungan dengan pengguna non-aktif. Tampilkan iklan yang relevan secara berulang kali di berbagai platform yang mereka kunjungi, seperti situs web, aplikasi, atau media sosial, setelah mereka mengklik iklan pertama. Ini dapat meningkatkan kesadaran pengguna.
 2. Strategi pemasaran dan iklan perusahaan dapat disesuaikan dengan demografi usia >40 tahun. Beberapa strategi yang dapat digunakan termasuk:
- - Memfokuskan kampanye iklan yang berdampak atau relevan dengan kehidupan dan kebutuhan kelompok usia di atas 40 tahun.
- - Desain iklan harus sederhana dan mudah dibaca oleh kelompok usia di atas 40 tahun.
- - Kelompok usia di atas 40 tahun cenderung kurang terlibat dalam media sosial dibandingkan dengan kelompok usia yang lebih muda.
+  - Memfokuskan kampanye iklan yang berdampak atau relevan dengan kehidupan dan kebutuhan kelompok usia di atas 40 tahun.
+  - Desain iklan harus sederhana dan mudah dibaca oleh kelompok usia di atas 40 tahun.
+  - Kelompok usia di atas 40 tahun cenderung kurang terlibat dalam media sosial dibandingkan dengan kelompok usia yang lebih muda.
 3. Strategi iklan dan pemasaran perusahaan dapat ditargetkan pada kelompok dengan pendapatan menengah kebawah (< 400 juta USD per tahun). Untuk mendorong pengguna untuk melaukukan klik pada iklan, dapat menggunakan strategi seperti memberikan iklan dengan harga terjangkau sesuai dengan anggaran pengguna dalam rentang waktu tertentu, seperti diskon khusus, bundel, ataupun promosi.
