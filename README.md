@@ -110,3 +110,15 @@ Berdasarkan evaluasi algoritma Random Forest dari confussion matrix terlihat bah
 ![image](https://github.com/user-attachments/assets/3b8461c3-e0aa-44eb-944b-4a4c2f865c1e)<br>
 Dapat terlihat bahwa Daily Internet Usage, Daily Time Spent on Site, Area Income, dan Age merupakan fitur yang mempengaruhi prediksi klik pada iklan, seperti yang ditunjukkan dalam plot SHAP.<br>
 Korelasi negatif antara Daily Internet Usage, Daily Time Spent on Site, dan Area Income menunjukkan bahwa pengguna yang tidak sering menggunakan internet dan memiliki pendapatan menengah kebawah memiliki kemungkinan lebih besar untuk mengklik iklan, yang ditunjukkan dengan warna merah di sebelah kiri. Namun, fitur Age menunjukkan korelasi positif. Artinya, semakin tua usia pengguna, semakin tinggi kemungkinan klik iklan.
+
+## Bagian 4: Rekomendasi Bisnis & Simulasi
+Beberapa hal yang dapat dilakukan yaitu sebagai berikut.
+
+1. Perusahaan dapat mentargetkan iklan pada pengguna internet yang tidak aktif, yaitu mereka yang jarang menghabiskan waktu di situs web (kurang dari 1 jam) dan yang jarang menggunakan internet (kurang dari 2,5 jam setiap hari). Di antaranya yang dapat digunakan yaitu sebagai berikut.
+ - Iklan harus singkat dan menarik karena pengguna non-aktif memiliki keterbatasan waktu.Pesan yang padat dan jelas dengan kata yang dipilih dengan benar dapat menarik perhatian mereka dalam waktu singkat.
+ - Gunakan teknik retargeting untuk tetap berhubungan dengan pengguna non-aktif. Tampilkan iklan yang relevan secara berulang kali di berbagai platform yang mereka kunjungi, seperti situs web, aplikasi, atau media sosial, setelah mereka mengklik iklan pertama. Ini dapat meningkatkan kesadaran pengguna.
+2. Strategi pemasaran dan iklan perusahaan dapat disesuaikan dengan demografi usia >40 tahun. Beberapa strategi yang dapat digunakan termasuk:
+ - Memfokuskan kampanye iklan yang berdampak atau relevan dengan kehidupan dan kebutuhan kelompok usia di atas 40 tahun.
+ - Desain iklan harus sederhana dan mudah dibaca oleh kelompok usia di atas 40 tahun.
+ - Kelompok usia di atas 40 tahun cenderung kurang terlibat dalam media sosial dibandingkan dengan kelompok usia yang lebih muda.
+3. Strategi iklan dan pemasaran perusahaan dapat ditargetkan pada kelompok dengan pendapatan menengah kebawah (< 400 juta USD per tahun). Untuk mendorong pengguna untuk melaukukan klik pada iklan, dapat menggunakan strategi seperti memberikan iklan dengan harga terjangkau sesuai dengan anggaran pengguna dalam rentang waktu tertentu, seperti diskon khusus, bundel, ataupun promosi.
