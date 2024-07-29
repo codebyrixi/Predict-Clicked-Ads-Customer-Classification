@@ -1,4 +1,4 @@
-# Predict Customer Clicked Ads Classification by Using Machine Learning
+![image](https://github.com/user-attachments/assets/4a74a318-b571-4a81-87fc-9a094cf9d122)# Predict Customer Clicked Ads Classification by Using Machine Learning
 Project ini merupakan project yang bertujuan untuk memprediksi jumlah klik suatu ads/iklan berdsasarkan klasifikasi pelanggannya. Project ini dibuat menggunakan bahasa pemrograman Python 
 
 ## Daftar Isi
@@ -66,3 +66,47 @@ Sehingga didapatkan hasil sebagai berikut
  Split Data  | Membagi data dengan perbandingan train:test = 70:30
 
 ## Bagian 3: Data Modelling
+Pada bagian ini, akan dicari dan dibangun suatu model dengan keakurasian yang tinggi. Karena jumlah kategori pada target yang digunakan seimbang inilah, matriks akurasi akan digunakan. Percobaan di Eksperimen 1 akan menggunakan data train default, dan Percobaan 2 akan menggunakan standarisasi.
+
+**Tabel 1: Eksperimen Tanpa Normalisasi**
+|   | Model               | Accuracy | Precision | Recall   | F1       | Duration |
+|---|---------------------|----------|-----------|----------|----------|----------|
+| 4 | Random Forest       | 0.960000 | 0.993056  | 0.928571 | 0.959732 | 0.200129 |
+| 6 | Gradient Boosting   | 0.953333 | 0.986111  | 0.922078 | 0.953020 | 0.238536 |
+| 8 | XGBoost             | 0.953333 | 0.979452  | 0.928571 | 0.953333 | 0.134795 |
+| 9 | LGBM                | 0.950000 | 0.986014  | 0.915584 | 0.949495 | 0.130329 |
+| 2 | Decision Tree       | 0.946667 | 0.966216  | 0.928571 | 0.947020 | 0.012987 |
+| 5 | AdaBoost            | 0.940000 | 0.978873  | 0.902597 | 0.939189 | 0.102607 |
+| 3 | SVC                 | 0.686667 | 0.800000  | 0.519481 | 0.629921 | 0.052675 |
+| 1 | KNN                 | 0.650000 | 0.689922  | 0.577922 | 0.628975 | 0.025848 |
+| 0 | Logistic Regression | 0.486667 | 0.000000  | 0.000000 | 0.000000 | 0.035244 |
+| 7 | MLP                 | 0.486667 | 0.000000  | 0.000000 | 0.000000 | 0.104576 |
+
+**Tabel 2: Eksperimen dengan Normalisasi**
+|   | Model               | Accuracy | Precision | Recall   | F1       | Duration |
+|---|---------------------|----------|-----------|----------|----------|----------|
+| 4 | Random Forest       | 0.960000 | 0.986301  | 0.935065 | 0.960000 | 0.225412 |
+| 8 | XGBoost             | 0.956667 | 0.979592  | 0.935065 | 0.956811 | 0.082322 |
+| 3 | SVC                 | 0.953333 | 0.986111  | 0.922078 | 0.953020 | 0.045166 |
+| 6 | Gradient Boosting   | 0.953333 | 0.979452  | 0.928571 | 0.953333 | 0.194056 |
+| 7 | MLP                 | 0.953333 | 0.979452  | 0.928571 | 0.953333 | 0.928606 |
+| 0 | Logistic Regression | 0.950000 | 0.972789  | 0.928571 | 0.950166 | 0.021258 |
+| 9 | LGBM                | 0.950000 | 0.979310  | 0.922078 | 0.949833 | 0.163605 |
+| 2 | Decision Tree       | 0.943333 | 0.959732  | 0.928571 | 0.943894 | 0.006328 |
+| 5 | AdaBoost            | 0.936667 | 0.959184  | 0.915584 | 0.936877 | 0.104253 |
+| 1 | KNN                 | 0.886667 | 0.968750  | 0.805195 | 0.879433 | 0.030646 |
+
+Dapat dilihat pada tabel eksperimen 1 bahwa model tanpa standardisasi yang memiliki nilai akurasi tertinggi adalah Random Forest. Didapat pula bahwa algoritma lain yang juga memiliki akurasi yang tinggi adalah Gradient Boosting, XGBoost, dan LGBM degan nilai 95%. Sebaliknya, algoritma Logistic Regression dan MLP memiliki akurasi yang sangat rendah, hal tersebut dapat mengakibatkan hasil prediksi yang kurang bagus.
+
+Sedangkan pada tabel eksperimen 2, terlihat bahwa model yang paling akurat ditunjukkan menggunakan standardisasi algoritma Random Forest. Selain itu, diperhatikan bahwa nilai akurasinya yang mencapai 96%, tidak berubah secara signifikan dari hasil eksperimen pertama. Untuk algoritma XBoost, Gradient Boosting, dan LGBM, nilai akurasi juga tidak berubah secara signifikan. Lalu untuk algoritma SVC dan Logistic Regression, standardisasi meningkatkan hasil akurasi secara signifikan.
+
+![image](https://github.com/user-attachments/assets/6acf15fd-aeb7-4586-8a45-e7f01313c5bc)<br>
+Berdasarkan evaluasi algoritma Random Forest dari confussion matrix terlihat bahwa model sangat baik memprediksi user yang melakukan klik pada iklan atau tidak dengan nilai kesalahan prediksi yang kecil.
+- Terdapat 145 prediksi benar yang diklasifikasikan sebagai bukan klik iklan (True Negatives/TN).
+- Terdapat 1 prediksi salah yang diklasifikasikan sebagai klik iklan padahal sebenarnya bukan (False Positives/FP).
+- Terdapat 11 prediksi salah yang diklasifikasikan sebagai bukan klik iklan padahal sebenarnya adalah klik iklan (False Negatives/FN).
+- Terdapat 143 prediksi benar yang diklasifikasikan sebagai klik iklan (True Positives/TP).
+
+![image](https://github.com/user-attachments/assets/3b8461c3-e0aa-44eb-944b-4a4c2f865c1e)<br>
+Dapat terlihat bahwa Daily Internet Usage, Daily Time Spent on Site, Area Income, dan Age merupakan fitur yang mempengaruhi prediksi klik pada iklan, seperti yang ditunjukkan dalam plot SHAP.<br>
+Korelasi negatif antara Daily Internet Usage, Daily Time Spent on Site, dan Area Income menunjukkan bahwa pengguna yang tidak sering menggunakan internet dan memiliki pendapatan menengah kebawah memiliki kemungkinan lebih besar untuk mengklik iklan, yang ditunjukkan dengan warna merah di sebelah kiri. Namun, fitur Age menunjukkan korelasi positif. Artinya, semakin tua usia pengguna, semakin tinggi kemungkinan klik iklan.
