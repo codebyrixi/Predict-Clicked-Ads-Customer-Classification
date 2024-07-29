@@ -38,3 +38,6 @@ Membuat model machine learning yang dapat mendeteksi user yang berpotensi untuk 
 | category | Category of the advertisement. |
 
 ## Bagian 1: Jenis Pelanggan dan Analisis Perilaku pada Iklan
+![image](https://github.com/user-attachments/assets/28d2304e-68bf-4364-8275-fe0b536965bc)
+![image](https://github.com/user-attachments/assets/73cca69e-4781-4e12-b18d-86c5ab088228)
+
