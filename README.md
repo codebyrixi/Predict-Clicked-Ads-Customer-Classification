@@ -55,7 +55,7 @@ Pada proses ini dilakukan pemrosesan data, yang terdiri dari:
 3. Feature encoding
 4. Feature selection
 5. Melakukan split pada data training dan data testing
-Hasilnya tertera pada tabel dibawah.
+Hasilnya tertera pada tabel dibawah.<br>
 | Tahapan | Penyelesaian |
 |---|---|
 | Data Cleaning | Melakukan handling pada missing value |
