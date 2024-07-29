@@ -39,11 +39,11 @@ Membuat model machine learning yang dapat mendeteksi user yang berpotensi untuk 
 
 ## Bagian 1: Jenis Pelanggan dan Analisis Perilaku pada Iklan
 ![image](https://github.com/user-attachments/assets/28d2304e-68bf-4364-8275-fe0b536965bc)
-![image](https://github.com/user-attachments/assets/73cca69e-4781-4e12-b18d-86c5ab088228)
-Menurut analisis plot Daily Time Spent, orang yang jarang menghabiskan waktu di sebuah situs (kurang dari satu jam) memiliki kemungkinan yang lebih besar untuk melakukan klik pada iklan. Sementara itu, analisis penggunaan internet harian menunjukkan bahwa orang yang jarang menggunakan internet memiliki kemungkinan yang lebih besar untuk melakukan klik pada iklan dibandingkan dengan orang yang sering menggunakan internet. Kemudian, analisis usia menunjukkan bahwa pengguna yang lebih tua memiliki kemungkinan yang lebih besar untuk melakukan klik pada iklan.
-![image](https://github.com/user-attachments/assets/b478b5ea-7605-4480-aa05-9eaaf6c0934e)
-Pengguna dapat dibagi menjadi dua kelompok: pengguna aktif dan non-aktif, berdasarkan plot korelasi antara Daily Time Spent on Site dengan Internet Usage terhadap Target. Terlihat bahwa pengguna yang aktif cenderung menghabiskan lebih banyak waktu di situs web dan menggunakan internet lebih banyak secara keseluruhan. Namun menariknya, pengguna aktif biasanya tidak terlalu suka melakukan klik pada iklan.
+![image](https://github.com/user-attachments/assets/73cca69e-4781-4e12-b18d-86c5ab088228)<br>
+Menurut analisis plot Daily Time Spent, orang yang jarang menghabiskan waktu di sebuah situs (kurang dari satu jam) memiliki kemungkinan yang lebih besar untuk melakukan klik pada iklan. Sementara itu, analisis penggunaan internet harian menunjukkan bahwa orang yang jarang menggunakan internet memiliki kemungkinan yang lebih besar untuk melakukan klik pada iklan dibandingkan dengan orang yang sering menggunakan internet. Kemudian, analisis usia menunjukkan bahwa pengguna yang lebih tua memiliki kemungkinan yang lebih besar untuk melakukan klik pada iklan.<br>
+![image](https://github.com/user-attachments/assets/b478b5ea-7605-4480-aa05-9eaaf6c0934e)<br>
+Pengguna dapat dibagi menjadi dua kelompok: pengguna aktif dan non-aktif, berdasarkan plot korelasi antara Daily Time Spent on Site dengan Internet Usage terhadap Target. Terlihat bahwa pengguna yang aktif cenderung menghabiskan lebih banyak waktu di situs web dan menggunakan internet lebih banyak secara keseluruhan. Namun menariknya, pengguna aktif biasanya tidak terlalu suka melakukan klik pada iklan.<br>
 ![image](https://github.com/user-attachments/assets/f3251acb-cadd-4435-8c03-59feef87b385)
-Berdasarkan analisis tentang bagaimana pengguna mengklik iklan pada hari-hari tertentu, Senin dan Jumat adalah hari-hari di mana jumlah klik iklan yang paling sedikit. Namun, Rabu adalah hari di mana jumlah klik iklan yang paling banyak. 
-![image](https://github.com/user-attachments/assets/5de63a06-919d-4e0c-894e-aa7f21d1191e)
+Berdasarkan analisis tentang bagaimana pengguna mengklik iklan pada hari-hari tertentu, Senin dan Jumat adalah hari-hari di mana jumlah klik iklan yang paling sedikit. Namun, Rabu adalah hari di mana jumlah klik iklan yang paling banyak.<br>
+![image](https://github.com/user-attachments/assets/5de63a06-919d-4e0c-894e-aa7f21d1191e)<br>
 Analisis berdasarkan waktu jam menunjukkan bahwa terdapat potensi pengguna untuk mengklik iklan dan memiliki konversi pembelian yang tinggi pada jam-jam tertentu, yaitu pukul 00.00, 09.00, 11.00, dan 18.00.
